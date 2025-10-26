@@ -1,1 +1,0 @@
-adding the SFML files within the project directory itself to avoid absolute include paths
