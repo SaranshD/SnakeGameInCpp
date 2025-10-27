@@ -8,8 +8,6 @@ int main()
 
 	Board game;
 
-	// maybe deal with input queueing later
-
 	while (window.isOpen())
 	{
 		while (const std::optional<sf::Event> event = window.pollEvent())
