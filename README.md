@@ -52,4 +52,4 @@ The font used for the in-game text objects is [PixelLetters](https://www.fontspa
 
 # License
 
-This project is open-source (MIT License), see [LICENSE](LICENSE) for details
+This project is open-source (MIT License), see [LICENSE](LICENSE.txt) for details
