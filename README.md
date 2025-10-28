@@ -9,19 +9,19 @@ Any additional suggestions, feedback and critique regarding the program and the 
 # High level overview of the program
 
 Utils.hpp
-  : Fairly small, just contains functions to pack two 16-bit integers into a 32-bit integer and to undo the process. Implemented since the standard library unordered_map container does not have a default hash for a pair of integers.
+:   Fairly small, just contains functions to pack two 16-bit integers into a 32-bit integer and to undo the process. Implemented since the standard library unordered_map container does not have a default hash for a pair of integers.
 
 Food.hpp
-  : Handles the generation of the food object that serves to grow the snake, uses the standard library mt19937 class (based on the Mersenne Twister algorithm) to generate the random numbers for the food coordinates.
+:   Handles the generation of the food object that serves to grow the snake, uses the standard library mt19937 class (based on the Mersenne Twister algorithm) to generate the random numbers for the food coordinates.
 
 Snake.hpp
-  : Handles the snake entity in general, includes the Direction system. Moving the snake and validating the turning input are its two primary methods.
+:   Handles the snake entity in general, includes the Direction system. Moving the snake and validating the turning input are its two primary methods.
 
 Board.hpp
-  : Handles the overall state of the board, it is basically the primary class for the game. Processing the input, updating the game state (including Paused and Game Over states), and rendering the game are its primary methods. 
+:   Handles the overall state of the board, it is basically the primary class for the game. Processing the input, updating the game state (including Paused and Game Over states), and rendering the game are its primary methods. 
 
 main.cpp
-  : Where the main game loop runs, creates the window, specifies the frame rate, and calls the relevant Board class methods as needed within the game loop.
+:   Where the main game loop runs, creates the window, specifies the frame rate, and calls the relevant Board class methods as needed within the game loop.
 
 ***
 
